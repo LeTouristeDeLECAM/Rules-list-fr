@@ -1,0 +1,41 @@
+{ 
+    "$schema": "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules.schema.json",
+    "RadioFrance": {
+        "detectors": [
+            {
+                "presentMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#didomi-notice-disagree-button"
+                        }
+                    }
+                ],
+                "showingMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#didomi-notice-disagree-button",
+                            "displayFilter": false
+                        }
+                    }
+                ]
+            }
+
+        ],
+
+        "methods": [
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#didomi-notice-disagree-button"
+                    }
+                },
+                "name": "SAVE_CONSENT"
+            }
+        ]
+
+    }
+
+}

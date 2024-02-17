@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules.schema.json",
+    "Arte": {
+        "detectors": [
+            {
+                "presentMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#footer_tc_privacy_button_2"
+                        }
+                    }
+                ],
+                "showingMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#footer_tc_privacy_button_2",
+                            "displayFilter": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "methods": [
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#footer_tc_privacy_button_2"
+                    }
+                },
+                "name": "SAVE_CONSENT"
+            }
+        ]
+    }
+}
