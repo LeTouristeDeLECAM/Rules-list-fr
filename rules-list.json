@@ -1,6 +1,6 @@
 {
     "references": [
-        "https://raw.githubusercontent.com/LeTouristeDeLECAM/Rules-list-fr/blob/master/rules/radiofrance.json",
-        "https://raw.githubusercontent.com/LeTouristeDeLECAM/Rules-list-fr/blob/master/rules/artetv.json"
+        "https://raw.githubusercontent.com/LeTouristeDeLECAM/Rules-list-fr/master/rules/radiofrance.json",
+        "https://raw.githubusercontent.com/LeTouristeDeLECAM/Rules-list-fr/master/rules/artetv.json"
     ]
 }
